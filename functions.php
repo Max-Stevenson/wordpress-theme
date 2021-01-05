@@ -5,6 +5,17 @@ function custom_theme_support() {
 }
 add_action("after_setup_theme", "custom_theme_support");
 
+function custom_menus() {
+  $locations = array(
+    "primary" => "Desktop Primary Left Sidebar", 
+    "footer" => "Footer Menu Items"
+  );
+
+  register_nav_menus($locations);
+}
+
+add_action("init", "custom_menus");
+
 function custom_register_styles() {
   $version = wp_get_theme()->get("Version");
   wp_enqueue_style("trialtheme-style", get_template_directory_uri() . "/style.css", array("trialtheme-bootstrap"), $version, "all");
