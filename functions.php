@@ -14,4 +14,3 @@ function custom_register_scripts() {
   wp_enqueue_script("trialtheme-script", get_template_directory_uri() . "/assets/js/main.js", array(), "1.0", true);
 }
 add_action("wp_enqueue_scripts", "custom_register_scripts");
-?>
