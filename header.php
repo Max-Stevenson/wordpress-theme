@@ -29,13 +29,14 @@
 
 
         <?php
-          wp_nav_menu(
-            array(
-              "menu" => "primary",
-              "container" => "",
-              "theme_location" => "primary"
-            )
-          );
+        wp_nav_menu(
+          array(
+            'menu' => 'primary',
+            'container' => '',
+            'theme_location' => 'primary',
+            'items_wrap' => '<ul class="navbar-nav flex-column text-sm-center text-md-left" id="">%3$s</ul>'
+          )
+        );
         ?>
 
         <ul class="navbar-nav flex-column text-sm-center text-md-left">
@@ -69,5 +70,5 @@
   </header>
   <div class="main-wrapper">
     <header class="page-title theme-bg-light text-center gradient py-5">
-      <h1 class="heading"><?php the_title();?></h1>
+      <h1 class="heading"><?php the_title(); ?></h1>
     </header>
