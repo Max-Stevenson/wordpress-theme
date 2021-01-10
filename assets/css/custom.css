@@ -27,6 +27,15 @@ h4 {
   font-size: 18px;
 }
 
+.btn {
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: #dd5638;
+  border-color: #d95131;
+}
+
 #hero {
   background: url("../img/hero-bg.jpg") 50% 0 repeat fixed;
   padding: 40px 0;
@@ -34,6 +43,11 @@ h4 {
   color: white;
   -webkit-font-smoothing: antialised;
   text-rendering: optimizeLegibility;
+}
+
+#hero article {
+  width: 100%;
+  text-align: center;
 }
 
 #hero .hero-text {
@@ -75,4 +89,14 @@ h4 {
   bottom: -35px;
   left: 50%;
   margin-left: -35px;
+}
+
+#price-timeline h4 {
+  margin: 0 0 10px;
+}
+
+#price-timeline h4 small {
+  color: white;
+  font-weight: bold;
+  display: block;
 }
