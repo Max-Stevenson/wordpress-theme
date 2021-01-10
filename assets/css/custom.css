@@ -54,3 +54,25 @@ h4 {
   position: relative;
   vertical-align: top;
 }
+
+#price-timeline .price-active {
+  background: #dd5638;
+}
+
+#price-timeline .price span {
+  background: #101010;
+  display: block;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  line-height: 70px;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  margin-left: -35px;
+}
