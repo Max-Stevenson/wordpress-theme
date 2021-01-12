@@ -27,6 +27,12 @@ h4 {
   font-size: 18px;
 }
 
+button, input, .btn, a.btn {
+  -webkit-font-smoothing: antialised;
+  text-rendering: optimizeLegibility;
+  color: white;
+}
+
 .btn {
   font-weight: bold;
 }
@@ -111,4 +117,9 @@ img {
   color: white;
   -webkit-font-smoothing: antialised;
   text-rendering: optimizeLegibility;
+  font-size: 1.2em;
+}
+
+#optin p {
+  margin: 7px 0 0 0;
 }
