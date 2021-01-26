@@ -77,6 +77,23 @@ img {
   background: #db4b39;
 }
 
+blockquote {
+  padding: 0;
+  border: none;
+  font-style: italic;
+  text-align: left;
+}
+
+blockquote cite {
+  display: block;
+  color: #777;
+  margin: 15px 0 0 0;
+}
+
+blockquote::before {
+  display: none;
+}
+
 #hero {
   background: url("../img/hero-bg.jpg") 50% 0 repeat fixed;
   padding: 40px 0;
@@ -221,6 +238,21 @@ section h3 {
   font-size: 20px;
   font-weight: normal;
 }
+
+#testimonial-section {
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 60px;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
 
 i.ci {
   display: inline-block;
