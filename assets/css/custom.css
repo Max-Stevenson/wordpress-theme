@@ -27,6 +27,23 @@ h4 {
   font-size: 18px;
 }
 
+p {
+  margin: 0 0 15px;
+}
+
+p.lead {
+  font-weight: normal;
+}
+
+a:link, a:visited {
+  color: #dd5638;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c9302c;
+}
+
 button, input, .btn, a.btn {
   -webkit-font-smoothing: antialised;
   text-rendering: optimizeLegibility;
@@ -171,6 +188,10 @@ blockquote::before {
   color: white;
   font-weight: bold;
   display: block;
+}
+
+.row + .row {
+  margin-top: 20px;
 }
 
 section {
@@ -343,4 +364,37 @@ i.ci {
 
 .ci.ci-device {
   background-position: -200px 0;
+}
+
+@media screen and (max-width : 991px) {
+  #instructor .container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .logo {
+    width: 50%;
+  }
+
+  #optin p {
+    margin: 0 0 10px;
+  }
+
+  #featurette iframe {
+    height: 240px;
+  }
+
+  @media screen and (max-width : 568px) {
+    #instructor .num {
+      height: 100px;
+      width: 100px;
+      font-size: 22px;
+    }
+  }
+
+  #instructor .num span {
+    font-size: 16px;
+  }
 }
