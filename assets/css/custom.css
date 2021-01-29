@@ -366,6 +366,16 @@ i.ci {
   background-position: -200px 0;
 }
 
+.post {
+  position: relative;
+  border: solid 1px #ddd;
+  background: white;
+  margin: 0 0 40px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
 @media screen and (max-width : 991px) {
   #instructor .container {
     background: rgba(255, 255, 255, 0.8);
