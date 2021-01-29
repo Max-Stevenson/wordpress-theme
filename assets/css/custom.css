@@ -386,7 +386,7 @@ i.ci {
   background-position: -200px 0;
 }
 
-.post {
+.post .widget {
   position: relative;
   border: solid 1px #ddd;
   background: white;
@@ -427,6 +427,31 @@ i.ci {
   padding-left: 0;
 }
 
+.widget {
+  padding: 20px;
+}
+
+.widget h4 {
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+  border-bottom: solid 1px #ddd;
+}
+
+.widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.widget ul li {
+  margin: 0 0 5px;
+}
+
+.widget ul li:hover {
+  position: relative;
+  left: 1px;
+}
+
 .post-comments-badge {
   height: 70px;
   width: 70px;
@@ -458,6 +483,24 @@ i.ci {
 
 .post-comments-badge:hover {
   background-color: #8bc653;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"] {
+  color: #666;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  width: 100%;
+  padding: 6px 12px;
 }
 
 @media screen and (max-width : 991px) {
