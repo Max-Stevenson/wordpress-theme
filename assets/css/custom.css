@@ -394,6 +394,11 @@ i.ci {
   height: auto;
 }
 
+.post-details {
+  font-size: 12px;
+  width: 90%;
+}
+
 @media screen and (max-width : 991px) {
   #instructor .container {
     background: rgba(255, 255, 255, 0.8);
