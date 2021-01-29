@@ -210,6 +210,26 @@ section h3 {
   margin: 30px 0 10px;
 }
 
+#primary {
+  padding: 40px 0;
+}
+
+.feature-image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.feature-image-default {
+  background: url("../img/stuff-feature.jpg") no-repeat;
+  background-size: cover;
+}
+
+.feature-image-default-alt {
+  background: url("../img/hipster-stuff.jpg") no-repeat;
+  background-size: cover;
+}
+
 #optin {
   background: #3e4249;
   padding: 20px 0;
@@ -405,6 +425,39 @@ i.ci {
 
 .post-details i.fa:first-child {
   padding-left: 0;
+}
+
+.post-comments-badge {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  background-color: #79b044;
+  text-align: center;
+  display: table;
+}
+
+.post-comments-badge a {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.post-comments-badge i.fa {
+  display: block;
+  font-size: 15px;
+  padding: 0;
+  margin-bottom: 4px;
+}
+
+.post-comments-badge:hover {
+  background-color: #8bc653;
 }
 
 @media screen and (max-width : 991px) {
